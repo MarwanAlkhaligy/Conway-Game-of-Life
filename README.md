@@ -3,10 +3,6 @@ The Game of Life is a cellular automaton devised by the British mathematician Jo
 
 ## Game of Life's Rules:-
 
-A live cell with fewer than two live neighbouring cells dies (underpopulation)
-A live cell with more than three live neighbouring cells dies (overpopulation)
-A live cell with two or three live neighbouring survives
-A dead cell with three neighbourig cells becomes a live cell (reproduction)
 - Death. If a cell is alive (state = 1)
   - > Overpopulation: four or more alive neighbors, it dies.
   - > Loneliness: one or fewer alive neighbors, it dies.
