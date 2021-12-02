@@ -10,14 +10,14 @@ A dead cell with three neighbourig cells becomes a live cell (reproduction)
 
 ##  Variations of Traditional CA:
 
-1 - Implement functionality to make Mouse Left Click draw on the grid (Activate a cell)
-2 - Change the cells so that it becomes non-rectangular when it is activated or not
-3 - Make the cell color a random color each time it is activated (State = 1)
+ - Implement functionality to make Mouse Left Click draw on the grid (Activate a cell)
+ - Change the cells so that it becomes non-rectangular when it is activated or not
+ - Make the cell color a random color each time it is activated (State = 1)
 
 ## Requirements :-
 
-> Pygame : pip install pygame
-> Numpy  : pip install numpy
+- Pygame : pip install pygame
+- Numpy  : pip install numpy
 
 ## References and Documentation :-
 
