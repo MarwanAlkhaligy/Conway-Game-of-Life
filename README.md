@@ -7,6 +7,13 @@ A live cell with fewer than two live neighbouring cells dies (underpopulation)
 A live cell with more than three live neighbouring cells dies (overpopulation)
 A live cell with two or three live neighbouring survives
 A dead cell with three neighbourig cells becomes a live cell (reproduction)
+- Death. If a cell is alive (state = 1)
+  - > Overpopulation: four or more alive neighbors, it dies.
+  - > Loneliness: one or fewer alive neighbors, it dies.
+- Birth. If a cell is dead (state = 0) it will come to life (state becomes 1) if it has exactly three alive
+- Stasis. In all other cases, the cell state does not change. To be thorough, let’s describe those scenarios.
+   - > Staying Alive: If a cell is alive and has exactly two or three live neighbors, it stays alive.
+   - > Staying Dead: If a cell is dead and has anything other than three live neighbors, it stays dead.
 
 ##  Variations of Traditional CA:
 
