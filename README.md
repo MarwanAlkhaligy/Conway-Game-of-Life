@@ -10,9 +10,9 @@ A dead cell with three neighbourig cells becomes a live cell (reproduction)
 
 ##  Variations of Traditional CA:
 
- - Implement functionality to make Mouse Left Click draw on the grid (Activate a cell)
- - Change the cells so that it becomes non-rectangular when it is activated or not
- - Make the cell color a random color each time it is activated (State = 1)
+ - Implemented functionality to make Mouse Left Click draw on the grid (Activate a cell)
+ - Changed the cells so that it becomes non-rectangular when it is activated or not
+ - Made the cell color a random color each time it is activated (State = 1)
 
 ## Requirements :-
 
